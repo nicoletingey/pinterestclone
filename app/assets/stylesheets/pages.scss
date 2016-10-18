@@ -1,0 +1,102 @@
+#nav_top {
+	display: flex;
+	flex: wrap;
+}
+
+#pint_logo{
+	float: left;
+	margin-left: 10px; 
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#pint_logo img {
+	height: 35px;
+	width: 35px;
+}
+
+.search_bar{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: center;
+
+}
+
+#search_box {
+	background-color: #F2F2F2;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	width: 1000px;
+	height: 35px;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+#icons {
+	float: right;
+	margin-left: 40px;
+}
+
+#icons img{
+	width: 25px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#wrapper {
+	width: 100%;
+    margin: 70px auto;
+}
+
+#columns {
+	-webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 5;
+    -moz-column-gap: 10px;
+    -moz-column-fill: auto;
+    column-count: 5;
+    column-gap: 10px;
+    column-fill: auto;
+}
+
+.pins {
+	display: inline-block;
+	background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0px 2px 15px 0px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    padding: 15px 15px 5px 15px;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.pins img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.pins p {
+    font: 12px/18px Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.pins:hover {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
